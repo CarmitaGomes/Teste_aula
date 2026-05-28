@@ -13,12 +13,12 @@ else:
 cidade: str = input("\nEm que cidade vives? ")
 pais: str = input("Em que país fica essa cidade? ")
 
-if pais:
-    print(f"Bom saber que vives em {cidade}, {pais}!")
-elif cidade == "lisboa" and pais == "portugal":
-    print(f"Bom saber que vives em {cidade}, capital de Portugal!")
+if cidade.lower() == "lisboa" and pais.lower() == "portugal":
+    print(f"Bom saber que vives em {cidade.title()}, capital de Portugal!")
+elif pais:
+    print(f"Bom saber que vives em {cidade.title()}, {pais.title()}!")
 else:
-    print(f"Bom saber que vives em {cidade}!")
+    print(f"Bom saber que vives em {cidade.title()}!")
 
 print("\nMuito obrigado por responder as perguntas!")
 
