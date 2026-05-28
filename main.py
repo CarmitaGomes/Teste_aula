@@ -6,5 +6,5 @@ idade: int = int(input("Qual é a sua idade? "))
 print(f"Tu tens {idade} anos...")
 
 cidade: str = input("\nEm que cidade vives? ")
-print(f"Bom saber que vives em {cidade}!")
-
+país: str = input("Em que país fica essa cidade? ")
+print(f"Bom saber que vives em {cidade}, {país}!")
