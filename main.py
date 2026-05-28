@@ -15,6 +15,8 @@ pais: str = input("Em que país fica essa cidade? ")
 
 if pais:
     print(f"Bom saber que vives em {cidade}, {pais}!")
+elif cidade == "lisboa" and pais == "portugal":
+    print(f"Bom saber que vives em {cidade}, capital de Portugal!")
 else:
     print(f"Bom saber que vives em {cidade}!")
 
